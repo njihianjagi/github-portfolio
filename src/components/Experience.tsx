@@ -27,6 +27,7 @@ const jobs = [
     link: 'https://torus.co.ke',
     images: [
       '/doghouse-desktop.png',
+      '/jublak-desktop.png',
       '/essajeecreations-desktop.webp',
       '/thrivingsupermama-desktop.webp',
       '/presentfatherhood-desktop.webp',

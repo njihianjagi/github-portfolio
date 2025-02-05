@@ -7,12 +7,6 @@ import {Card, CardContent} from '@/components/ui/card';
 
 export const projects = [
   {
-    title: 'Pet Adoption App',
-    description: 'A pet adoption app built with React Native and Firebase',
-    tech: 'React Native',
-    link: 'https://doghouse.co.ke',
-  },
-  {
     title: 'Planetary Hours App',
     description:
       'An app to calculate the current planetary hours built with Next.js and PlanetaryHoursAPI',
@@ -31,6 +25,12 @@ export const projects = [
     description:
       'A machine learning powered chatbot using Python and TensorFlow',
     tech: 'Python',
+    link: '#',
+  },
+  {
+    title: 'Data Visualization Dashboard',
+    description: 'An interactive dashboard using D3.js and Vue.js',
+    tech: 'Vue.js',
     link: '#',
   },
 ];
