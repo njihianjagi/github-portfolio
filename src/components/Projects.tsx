@@ -7,23 +7,24 @@ import {Card, CardContent} from '@/components/ui/card';
 
 export const projects = [
   {
-    title: 'Gibwork Example App',
-    description:
-      'An example application that demonstrates how to interact with the Gibwork APIs built with Next.js',
-    tech: 'React',
-    link: 'https://gib-bounty.vercel.app',
-  },
-  {
     title: 'Pet Adoption App',
     description: 'A pet adoption app built with React Native and Firebase',
     tech: 'React Native',
     link: 'https://doghouse.co.ke',
   },
   {
-    title: 'Data Visualization Dashboard',
-    description: 'An interactive dashboard using D3.js and Vue.js',
-    tech: 'Vue.js',
-    link: '#',
+    title: 'Planetary Hours App',
+    description:
+      'An app to calculate the current planetary hours built with Next.js and PlanetaryHoursAPI',
+    tech: 'Next.js',
+    link: 'https://planetary-hours-one.vercel.app',
+  },
+  {
+    title: 'Gibwork Example App',
+    description:
+      'An example application that demonstrates how to interact with the Gibwork APIs built with Next.js',
+    tech: 'React',
+    link: 'https://gib-bounty.vercel.app',
   },
   {
     title: 'AI Chatbot',
