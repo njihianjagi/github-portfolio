@@ -30,23 +30,28 @@ const jobs = [
   {
     role: 'Freelance Developer',
     company: 'Self-employed',
-    logo: '/freelance.svg',
+    logo: '/company.svg',
     duration: '2019 - Present',
     description:
       'Designed and developed various client projects, focusing on responsive design and performance optimization.',
-    link: '#',
-    images: ['/portfolio-desktop.png'],
+    link: 'https://torus.co.ke',
+    images: [
+      '/jublak-desktop.png',
+      '/essajeecreations-desktop.webp',
+      '/thrivingsupermama-desktop.webp',
+      '/presentfatherhood-desktop.webp',
+    ],
   },
-  {
-    role: 'Intern',
-    company: 'Radio Africa Group Ltd.',
-    logo: '/rag.svg',
-    duration: '2016/01 - 2016/04',
-    description:
-      'Supported IT operations and developed internal tools to improve department efficiency.',
-    link: 'https://radioafricagroup.co.ke',
-    images: ['/rag-desktop.png'],
-  },
+  // {
+  //   role: 'Intern',
+  //   company: 'Radio Africa Group Ltd.',
+  //   logo: '/rag.svg',
+  //   duration: '2016/01 - 2016/04',
+  //   description:
+  //     'Supported IT operations and developed internal tools to improve department efficiency.',
+  //   link: 'https://radioafricagroup.co.ke',
+  //   images: ['/rag-desktop.png'],
+  // },
 ];
 
 export const Experience = () => {
