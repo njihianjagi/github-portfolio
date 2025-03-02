@@ -8,37 +8,35 @@ import {Card, CardContent} from '@/components/ui/card';
 export const projects = [
   {
     title: 'Planetary Hours App',
-    description:
-      'An app to calculate the current planetary hours built with Next.js and PlanetaryHoursAPI',
+    description: 'Developed a web application that calculates current planetary hours based on user location, utilizing Next.js and the PlanetaryHoursAPI. Enhanced skills in geolocation services and time-based calculations.',
     tech: 'Next.js',
     link: 'https://planetary-hours-one.vercel.app',
   },
   {
     title: 'Gibwork Example App',
-    description:
-      'An example application that demonstrates how to interact with the Gibwork APIs built with Next.js',
-    tech: 'React',
+    description: 'Created an application showcasing interactions with GibworkX Web3 APIs, built with Next.js. Deepened understanding of blockchain technology and decentralized rendering.',
+    tech: 'Next.js',
     link: 'https://gib-bounty.vercel.app',
   },
   {
-    title: 'AI Chatbot',
-    description:
-      'A machine learning powered chatbot using Python and TensorFlow',
-    tech: 'Python',
+    title: 'Sigilizer App',
+    description: 'Designed an application that generates personalized sigils based on user intentions, employing Capacitor for cross-platform compatibility. Developed expertise in procedural graphics generation using the Canvas API.',
+    tech: 'React',
     link: '#',
   },
   {
-    title: 'Data Visualization Dashboard',
-    description: 'An interactive dashboard using D3.js and Vue.js',
-    tech: 'Vue.js',
+    title: 'Journey.me',
+    description: 'Developed an application that produces personalized affirmations using Large Language Models (LLMs) with React Native. Improved proficiency in natural language processing and AI-driven content generation.',
+    tech: 'React Native',
     link: '#',
   },
 ];
 
 const techColors = {
+  'Next.js': 'bg-black',
   React: 'bg-blue-500',
-  'React Native': 'bg-green-500',
-  'Vue.js': 'bg-purple-500',
+  'React Native': 'bg-blue-400',
+  'Vue.js': 'bg-green-500',
   Python: 'bg-yellow-500',
 };
 
