@@ -8,25 +8,29 @@ import {Card, CardContent} from '@/components/ui/card';
 export const projects = [
   {
     title: 'Planetary Hours App',
-    description: 'Developed a web application that calculates current planetary hours based on user location, utilizing Next.js and the PlanetaryHoursAPI. Enhanced skills in geolocation services and time-based calculations.',
+    description:
+      'A web application that calculates current planetary hours based on user location and time.',
     tech: 'Next.js',
     link: 'https://planetary-hours-one.vercel.app',
   },
   {
     title: 'Gibwork Example App',
-    description: 'Created an application showcasing interactions with GibworkX Web3 APIs, built with Next.js. Deepened understanding of blockchain technology and decentralized rendering.',
+    description:
+      'A demonstration app showcasing interactions with blockchain APIs and decentralized rendering.',
     tech: 'Next.js',
     link: 'https://gib-bounty.vercel.app',
   },
   {
     title: 'Sigilizer App',
-    description: 'Designed an application that generates personalized sigils based on user intentions, employing Capacitor for cross-platform compatibility. Developed expertise in procedural graphics generation using the Canvas API.',
+    description:
+      'A cross-platform application for generating personalized sigils using procedural graphics.',
     tech: 'React',
     link: '#',
   },
   {
-    title: 'Journey.me',
-    description: 'Developed an application that produces personalized affirmations using Large Language Models (LLMs) with React Native. Improved proficiency in natural language processing and AI-driven content generation.',
+    title: 'Affirmator',
+    description:
+      'A mobile app that generates personalized affirmations using AI language models.',
     tech: 'React Native',
     link: '#',
   },
