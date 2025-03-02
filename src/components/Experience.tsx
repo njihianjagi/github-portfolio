@@ -8,30 +8,44 @@ import {JobImages} from '@/components/JobImages';
 
 const jobs = [
   {
-    role: 'Senior Software Engineer', // TODO: Replace with actual role
-    company: 'Bingwa Services', // TODO: Replace with actual company name
-    logo: '/bingwa.svg', // TODO: Replace with actual logo
-    duration: '2021 - Present',
+    role: 'Senior Software Engineer',
+    company: 'Bingwa Services',
+    logo: '/bingwa.svg',
+    duration: '2024 - Present',
     description:
       'Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.',
-    link: 'https://bingwa.ke',
+    link: 'https://linkedin.com/company/bingwa/',
     images: ['/bingwa-desktop.png'],
   },
   {
-    role: 'Lead Developer', // TODO: Replace with actual role
-    company: 'Torus Studios', // TODO: Replace with actual company name
-    logo: '/company.svg', // TODO: Replace with actual logo
-    duration: '2018 - Present',
+    role: 'Software Engineer',
+    company: 'Bingwa Services',
+    logo: '/bingwa.svg',
+    duration: '2021 - 2023',
     description:
-      'Developed and maintained various client projects, focusing on responsive design and performance optimization.',
-    link: 'https://torus.co.ke',
-    images: [
-      '/doghouse-desktop.png',
-      '/jublak-desktop.png',
-      '/essajeecreations-desktop.webp',
-      '/thrivingsupermama-desktop.webp',
-      '/presentfatherhood-desktop.webp',
-    ],
+      'Developed and maintained enterprise applications, focusing on performance optimization and automated testing.',
+    link: 'https://linkedin.com/company/bingwa/',
+    images: ['/bingwa-desktop.png'],
+  },
+  {
+    role: 'Freelance Developer',
+    company: 'Self-employed',
+    logo: '/freelance.svg',
+    duration: '2019 - Present',
+    description:
+      'Designed and developed various client projects, focusing on responsive design and performance optimization.',
+    link: '#',
+    images: ['/portfolio-desktop.png'],
+  },
+  {
+    role: 'Intern',
+    company: 'Radio Africa Group Ltd.',
+    logo: '/rag.svg',
+    duration: '2016/01 - 2016/04',
+    description:
+      'Supported IT operations and developed internal tools to improve department efficiency.',
+    link: 'https://radioafricagroup.co.ke',
+    images: ['/rag-desktop.png'],
   },
 ];
 
