@@ -12,17 +12,17 @@ import ThemeSwitcher from '@/components/ui/ThemeSwitcher';
 const socials = [
   {
     name: 'Email',
-    link: 'mailto:timothy.njagi@gmail.com',
+    link: 'mailto:njihianjagi@gmail.com',
     icon: <FaEnvelope className='size-4' />,
   },
   {
     name: 'Github',
-    link: 'https://github.com/timonjagi',
+    link: 'https://github.com/njihianjagi',
     icon: <FaGithub className='size-4' />,
   },
   {
     name: 'LinkedIn',
-    link: 'https://linkedin.com/in/timothy-njagi',
+    link: 'https://linkedin.com/in/njihia-njagi',
     icon: <FaLinkedin className='size-4' />,
   },
 
@@ -48,7 +48,7 @@ export const Profile = () => {
               />
               <div className='flex flex-col items-start justify-center'>
                 <h1 className='font-bold md:mt-4 text-xl md:text-2xl'>
-                  Tim Njagi
+                  Njihia Njagi
                 </h1>
                 <p className='text-sm md:text-base text-muted-foreground'>
                   Full-stack Engineer
