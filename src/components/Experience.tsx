@@ -13,7 +13,7 @@ const jobs = [
     logo: '/bingwa.svg',
     duration: '2024 - Present',
     description:
-      'Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.',
+      'Lead engineer for multiple high-impact projects, mentoring junior developers, and implementing best practices.',
     link: 'https://linkedin.com/company/bingwa/',
     images: ['/bingwa-desktop.png'],
   },
@@ -34,12 +34,12 @@ const jobs = [
     duration: '2019 - Present',
     description:
       'Designed and developed various client projects, focusing on responsive design and performance optimization.',
-    link: 'https://torus.co.ke',
+    link: '',
     images: [
-      '/jublak-desktop.png',
       '/essajeecreations-desktop.webp',
       '/thrivingsupermama-desktop.webp',
       '/presentfatherhood-desktop.webp',
+      '/jublak-desktop.png',
     ],
   },
   // {
