@@ -51,7 +51,7 @@ export const Profile = () => {
                   Njihia Njagi
                 </h1>
                 <p className='text-sm md:text-base text-muted-foreground'>
-                  Full-stack Engineer
+                  Software Engineer
                 </p>
               </div>
             </div>

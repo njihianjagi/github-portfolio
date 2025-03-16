@@ -3,7 +3,7 @@ import {Metadata} from 'next';
 // TODO: Update metadata
 
 export function constructMetadata({
-  title = 'Njihia Njagi - Full-stack Engineer', // TODO: Add a custom title
+  title = 'Njihia Njagi - Software Engineer', // TODO: Add a custom title
   description = 'Experienced software engineer specialized in creating robust, scalable web solutions with a focus on performance and user experience.',
   image = '/og-image.png', // Open Graph image for social sharing
   icons = '/avatar.svg', // TODO: Add a custom icon
