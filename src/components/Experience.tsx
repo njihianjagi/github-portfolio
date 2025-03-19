@@ -48,7 +48,7 @@ const jobs = [
       'Designed and developed various client projects, focusing on responsive design and performance optimization.',
     images: [
       {
-        url: '/essajeecreations-desktop.webp',
+        url: '/essajeecreations-desktop.png',
         link: 'https://essajeecreations.com',
         description: 'Essajee Creations - IT Solutions Agency',
         projectName: 'Essajee Creations'

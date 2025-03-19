@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from 'next/image';
 import { useState } from "react";
-
+import { StaticImageData } from "next/image";
 import { ExternalLink } from "lucide-react";
 
 import {
@@ -15,10 +15,16 @@ import {
 	DialogDescription
 } from "@/components/ui/dialog";
 
+interface ImageData {
+	url: string | StaticImageData;
+	link: string;
+	projectName: string;
+	description?: string;
+}
 
 interface JobImagesProps {
 	role: string;
-	images: any[];
+	images: ImageData[];
 	duration: string;
 }
 
@@ -27,7 +33,11 @@ export const JobImages = ({
 	images,
 	duration,
 }: JobImagesProps) => {
-	const [selectedImage, setSelectedImage] = useState<any>(null);
+	const [selectedImage, setSelectedImage] = useState<ImageData | null>(null);
+	
+	const handleImageClick = (image: ImageData): void => {
+		setSelectedImage(image);
+	};
 
 	return (
 		<div className="mt-4 flex space-x-2 overflow-x-auto pb-2 w-full">
@@ -35,11 +45,11 @@ export const JobImages = ({
 				<Dialog key={idx}>
 					<DialogTrigger asChild>
 						<Image
-							src={img.url || ''}
+							src={img.url}
 							width={100}
 							height={100}
-							alt={`Project Image for ${role}`}
-							onClick={() => setSelectedImage(img)}
+							alt={`${img.projectName} - ${role}`}
+							onClick={() => handleImageClick(img)}
 							className="cursor-pointer rounded-md border h-full w-auto shadow-md object-cover"
 						/>
 					</DialogTrigger>
@@ -51,17 +61,28 @@ export const JobImages = ({
 							</DialogDescription>
 						</DialogHeader>
 						<div className="mt-4 mx-auto space-y-2">
-							<Image
-								width={400}
-								height={400}
-								src={selectedImage?.url || ""}
-								alt={`Project Image for ${role}`}
-								className="rounded-md border shadow-md object-cover"
-							/>
-							<Link href={selectedImage?.link} target="_blank" className="text-sm flex items-center justify-center text-blue-600 hover:underline mt-2">
-								Visit {selectedImage?.projectName || ""}
-								<ExternalLink className="size-4 ml-2" />
-							</Link>
+							{selectedImage && (
+								<>
+									<Image
+										width={400}
+										height={400}
+										src={selectedImage.url}
+										alt={`${selectedImage.projectName} - ${role}`}
+										className="rounded-md border shadow-md object-cover"
+									/>
+									{selectedImage.description && (
+										<p className="text-sm text-gray-600 mt-2">{selectedImage.description}</p>
+									)}
+									<Link 
+										href={selectedImage.link} 
+										target="_blank" 
+										className="text-sm flex items-center justify-center text-blue-600 hover:underline mt-2"
+									>
+										Visit {selectedImage.projectName}
+										<ExternalLink className="size-4 ml-2" />
+									</Link>
+								</>
+							)}
 						</div>
 					</DialogContent>
 				</Dialog>
