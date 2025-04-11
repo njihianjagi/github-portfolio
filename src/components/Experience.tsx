@@ -7,27 +7,27 @@ import {Card, CardContent} from '@/components/ui/card';
 import {JobImages} from '@/components/JobImages';
 
 const jobs = [
-  {
-    role: 'Senior Software Engineer',
-    company: 'Bingwa Services',
-    logo: '/bingwa.svg',
-    duration: '2024 - Present',
-    description:
-      'Lead engineer for multiple high-impact projects, mentoring junior developers, and implementing best practices.',
-    images: [
-      {
-        url: '/bingwa-desktop.png',
-        link: 'https://linkedin.com/company/bingwa/',
-        description: 'Bingwa Services platform interface',
-        projectName: 'Bingwa LinkedIn'
-      }
-    ],
-  },
+  // {
+  //   role: 'Senior Software Engineer',
+  //   company: 'Bingwa Services',
+  //   logo: '/bingwa.svg',
+  //   duration: '2024 - Present',
+  //   description:
+  //     'Lead engineer for multiple high-impact projects, mentoring junior developers, and implementing best practices.',
+  //   images: [
+  //     {
+  //       url: '/bingwa-desktop.png',
+  //       link: 'https://linkedin.com/company/bingwa/',
+  //       description: 'Bingwa Services platform interface',
+  //       projectName: 'Bingwa LinkedIn'
+  //     }
+  //   ],
+  // },
   {
     role: 'Software Engineer',
     company: 'Bingwa Services',
     logo: '/bingwa.svg',
-    duration: '2021 - 2023',
+    duration: '2021 - Present',
     description:
       'Developed and maintained web and mobile applications, focusing on performance optimization and automated testing.',
     images: [
